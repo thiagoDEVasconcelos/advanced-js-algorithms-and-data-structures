@@ -1,4 +1,4 @@
-class Stack {
+export class Stack {
     constructor() {
         this.items = [];
     }
@@ -28,9 +28,4 @@ class Stack {
         return this.items = [];
     }
 }
-
-const bookStack = new Stack();
-bookStack.push('Dune Messiah');
-bookStack.push('Children of Dune');
-console.log(bookStack.items);
 
